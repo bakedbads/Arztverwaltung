@@ -1,0 +1,74 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 5rem;
+}
+
+/* Container */
+.container {
+    margin: 20px auto; 
+    max-width: 800px; 
+    padding: 0 20px; 
+    text-align: left; 
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #6594c5;
+
+    margin-right: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Horizontal Rule */
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Form */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: calc(100% - 16px); /* Adjust width to account for padding */
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #6594c5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6594c5;
+
+}
